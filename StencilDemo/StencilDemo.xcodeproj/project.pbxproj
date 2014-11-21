@@ -448,6 +448,7 @@
 				989DE2801A1F353300AA8576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		989DE2811A1F353300AA8576 /* Build configuration list for PBXNativeTarget "StencilDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				989DE2831A1F353300AA8576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
