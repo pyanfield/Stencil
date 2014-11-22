@@ -13,14 +13,8 @@
 		989DE26C1A1F353300AA8576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989DE26B1A1F353300AA8576 /* Images.xcassets */; };
 		989DE26F1A1F353300AA8576 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989DE26D1A1F353300AA8576 /* LaunchScreen.xib */; };
 		989DE27B1A1F353300AA8576 /* StencilDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE27A1A1F353300AA8576 /* StencilDemoTests.swift */; };
-		989DE28F1A1F355400AA8576 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE2851A1F355400AA8576 /* Context.swift */; };
-		989DE2911A1F355400AA8576 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE2871A1F355400AA8576 /* Lexer.swift */; };
-		989DE2921A1F355400AA8576 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE2881A1F355400AA8576 /* Node.swift */; };
-		989DE2931A1F355400AA8576 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE2891A1F355400AA8576 /* Parser.swift */; };
-		989DE2941A1F355400AA8576 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE28A1A1F355400AA8576 /* Result.swift */; };
-		989DE2951A1F355400AA8576 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE28C1A1F355400AA8576 /* Template.swift */; };
-		989DE2961A1F355400AA8576 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE28D1A1F355400AA8576 /* Tokenizer.swift */; };
-		989DE2971A1F355400AA8576 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE28E1A1F355400AA8576 /* Variable.swift */; };
+		98CC91A81A20138000575E1C /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC91A71A20138000575E1C /* Stencil.framework */; };
+		98CC91AC1A20155400575E1C /* template.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 98CC91AB1A20155400575E1C /* template.stencil */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +38,8 @@
 		989DE2741A1F353300AA8576 /* StencilDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StencilDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989DE2791A1F353300AA8576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989DE27A1A1F353300AA8576 /* StencilDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilDemoTests.swift; sourceTree = "<group>"; };
-		989DE2851A1F355400AA8576 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		989DE2871A1F355400AA8576 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
-		989DE2881A1F355400AA8576 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		989DE2891A1F355400AA8576 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		989DE28A1A1F355400AA8576 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		989DE28B1A1F355400AA8576 /* Stencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stencil.h; sourceTree = "<group>"; };
-		989DE28C1A1F355400AA8576 /* Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
-		989DE28D1A1F355400AA8576 /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
-		989DE28E1A1F355400AA8576 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		98CC91A71A20138000575E1C /* Stencil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stencil.framework; path = "../../../Library/Developer/Xcode/DerivedData/StencilDemo-gtypknkchimumtgqgqpzkxrbdgnp/Build/Products/Debug/Stencil.framework"; sourceTree = "<group>"; };
+		98CC91AB1A20155400575E1C /* template.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = template.stencil; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CC91A81A20138000575E1C /* Stencil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +64,9 @@
 		989DE2561A1F353300AA8576 = {
 			isa = PBXGroup;
 			children = (
-				989DE2841A1F355400AA8576 /* Stencil */,
 				989DE2611A1F353300AA8576 /* StencilDemo */,
+				98CC91AA1A20153C00575E1C /* SourceFiles */,
+				98CC91A91A20152200575E1C /* Frameworks */,
 				989DE2771A1F353300AA8576 /* StencilDemoTests */,
 				989DE2601A1F353300AA8576 /* Products */,
 			);
@@ -130,21 +119,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		989DE2841A1F355400AA8576 /* Stencil */ = {
+		98CC91A91A20152200575E1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				989DE2851A1F355400AA8576 /* Context.swift */,
-				989DE2871A1F355400AA8576 /* Lexer.swift */,
-				989DE2881A1F355400AA8576 /* Node.swift */,
-				989DE2891A1F355400AA8576 /* Parser.swift */,
-				989DE28A1A1F355400AA8576 /* Result.swift */,
-				989DE28B1A1F355400AA8576 /* Stencil.h */,
-				989DE28C1A1F355400AA8576 /* Template.swift */,
-				989DE28D1A1F355400AA8576 /* Tokenizer.swift */,
-				989DE28E1A1F355400AA8576 /* Variable.swift */,
+				98CC91A71A20138000575E1C /* Stencil.framework */,
 			);
-			name = Stencil;
-			path = ../Stencil;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98CC91AA1A20153C00575E1C /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				98CC91AB1A20155400575E1C /* template.stencil */,
+			);
+			name = SourceFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CC91AC1A20155400575E1C /* template.stencil in Resources */,
 				989DE26A1A1F353300AA8576 /* Main.storyboard in Resources */,
 				989DE26F1A1F353300AA8576 /* LaunchScreen.xib in Resources */,
 				989DE26C1A1F353300AA8576 /* Images.xcassets in Resources */,
@@ -247,16 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989DE28F1A1F355400AA8576 /* Context.swift in Sources */,
-				989DE2921A1F355400AA8576 /* Node.swift in Sources */,
-				989DE2931A1F355400AA8576 /* Parser.swift in Sources */,
 				989DE2671A1F353300AA8576 /* ViewController.swift in Sources */,
-				989DE2941A1F355400AA8576 /* Result.swift in Sources */,
-				989DE2951A1F355400AA8576 /* Template.swift in Sources */,
-				989DE2911A1F355400AA8576 /* Lexer.swift in Sources */,
-				989DE2961A1F355400AA8576 /* Tokenizer.swift in Sources */,
 				989DE2651A1F353300AA8576 /* AppDelegate.swift in Sources */,
-				989DE2971A1F355400AA8576 /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +360,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/StencilDemo-gtypknkchimumtgqgqpzkxrbdgnp/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = StencilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,6 +374,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/StencilDemo-gtypknkchimumtgqgqpzkxrbdgnp/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = StencilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

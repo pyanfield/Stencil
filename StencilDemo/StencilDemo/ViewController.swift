@@ -13,6 +13,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let context = Context(dictionary: [
+            "articles": [
+                [ "title": "Migrating from OCUnit to XCTest", "author": "Kyle Fuller" ],
+                [ "title": "Memory Management with ARC", "author": "Kyle Fuller" ],
+            ]
+            ])
+        
+        let template = Template(named: "template.stencil")
+        let result = template!.render(context)
+        
+        switch result {
+        case .Error(let error):
+            println("There was an error rendering your template (\(error)).")
+        case .Success(let string):
+            println("\(string)")
+        }
     }
 }
 
