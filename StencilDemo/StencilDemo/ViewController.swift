@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Stencil
 
 class ViewController: UIViewController {
 
