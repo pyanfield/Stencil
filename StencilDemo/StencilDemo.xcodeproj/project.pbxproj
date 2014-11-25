@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		988C6D8E1A24BA6300D5A943 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D831A24BA6300D5A943 /* Context.swift */; };
+		988C6D8F1A24BA6300D5A943 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D841A24BA6300D5A943 /* Lexer.swift */; };
+		988C6D901A24BA6300D5A943 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D851A24BA6300D5A943 /* Node.swift */; };
+		988C6D911A24BA6300D5A943 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D861A24BA6300D5A943 /* Parser.swift */; };
+		988C6D921A24BA6300D5A943 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D871A24BA6300D5A943 /* Result.swift */; };
+		988C6D931A24BA6300D5A943 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D881A24BA6300D5A943 /* Template.swift */; };
+		988C6D941A24BA6300D5A943 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D891A24BA6300D5A943 /* Tokenizer.swift */; };
+		988C6D951A24BA6300D5A943 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C6D8A1A24BA6300D5A943 /* Variable.swift */; };
+		988C6D961A24BA6300D5A943 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 988C6D8B1A24BA6300D5A943 /* Info.plist */; };
 		989DE2651A1F353300AA8576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE2641A1F353300AA8576 /* AppDelegate.swift */; };
 		989DE2671A1F353300AA8576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE2661A1F353300AA8576 /* ViewController.swift */; };
 		989DE26A1A1F353300AA8576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989DE2681A1F353300AA8576 /* Main.storyboard */; };
 		989DE26C1A1F353300AA8576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989DE26B1A1F353300AA8576 /* Images.xcassets */; };
 		989DE26F1A1F353300AA8576 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989DE26D1A1F353300AA8576 /* LaunchScreen.xib */; };
 		989DE27B1A1F353300AA8576 /* StencilDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DE27A1A1F353300AA8576 /* StencilDemoTests.swift */; };
-		98CC91A81A20138000575E1C /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC91A71A20138000575E1C /* Stencil.framework */; };
 		98CC91AC1A20155400575E1C /* template.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 98CC91AB1A20155400575E1C /* template.stencil */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		988C6D821A24BA6300D5A943 /* Stencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stencil.h; sourceTree = "<group>"; };
+		988C6D831A24BA6300D5A943 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		988C6D841A24BA6300D5A943 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		988C6D851A24BA6300D5A943 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		988C6D861A24BA6300D5A943 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		988C6D871A24BA6300D5A943 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		988C6D881A24BA6300D5A943 /* Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		988C6D891A24BA6300D5A943 /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		988C6D8A1A24BA6300D5A943 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		988C6D8B1A24BA6300D5A943 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989DE25F1A1F353300AA8576 /* StencilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StencilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		989DE2631A1F353300AA8576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989DE2641A1F353300AA8576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +56,6 @@
 		989DE2741A1F353300AA8576 /* StencilDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StencilDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989DE2791A1F353300AA8576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989DE27A1A1F353300AA8576 /* StencilDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilDemoTests.swift; sourceTree = "<group>"; };
-		98CC91A71A20138000575E1C /* Stencil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stencil.framework; path = "../../../Library/Developer/Xcode/DerivedData/StencilDemo-gtypknkchimumtgqgqpzkxrbdgnp/Build/Products/Debug/Stencil.framework"; sourceTree = "<group>"; };
 		98CC91AB1A20155400575E1C /* template.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = template.stencil; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC91A81A20138000575E1C /* Stencil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		988C6D8C1A24BA6300D5A943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988C6D8B1A24BA6300D5A943 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		988C6D8D1A24BA6300D5A943 /* Stencil */ = {
+			isa = PBXGroup;
+			children = (
+				988C6D821A24BA6300D5A943 /* Stencil.h */,
+				988C6D831A24BA6300D5A943 /* Context.swift */,
+				988C6D841A24BA6300D5A943 /* Lexer.swift */,
+				988C6D851A24BA6300D5A943 /* Node.swift */,
+				988C6D861A24BA6300D5A943 /* Parser.swift */,
+				988C6D871A24BA6300D5A943 /* Result.swift */,
+				988C6D881A24BA6300D5A943 /* Template.swift */,
+				988C6D891A24BA6300D5A943 /* Tokenizer.swift */,
+				988C6D8A1A24BA6300D5A943 /* Variable.swift */,
+				988C6D8C1A24BA6300D5A943 /* Supporting Files */,
+			);
+			name = Stencil;
+			path = ../../Stencil;
+			sourceTree = "<group>";
+		};
 		989DE2561A1F353300AA8576 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +126,7 @@
 		989DE2611A1F353300AA8576 /* StencilDemo */ = {
 			isa = PBXGroup;
 			children = (
+				988C6D8D1A24BA6300D5A943 /* Stencil */,
 				989DE2641A1F353300AA8576 /* AppDelegate.swift */,
 				989DE2661A1F353300AA8576 /* ViewController.swift */,
 				989DE2681A1F353300AA8576 /* Main.storyboard */,
@@ -122,7 +165,6 @@
 		98CC91A91A20152200575E1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98CC91A71A20138000575E1C /* Stencil.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,6 +260,7 @@
 				98CC91AC1A20155400575E1C /* template.stencil in Resources */,
 				989DE26A1A1F353300AA8576 /* Main.storyboard in Resources */,
 				989DE26F1A1F353300AA8576 /* LaunchScreen.xib in Resources */,
+				988C6D961A24BA6300D5A943 /* Info.plist in Resources */,
 				989DE26C1A1F353300AA8576 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,8 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988C6D8E1A24BA6300D5A943 /* Context.swift in Sources */,
+				988C6D901A24BA6300D5A943 /* Node.swift in Sources */,
+				988C6D911A24BA6300D5A943 /* Parser.swift in Sources */,
 				989DE2671A1F353300AA8576 /* ViewController.swift in Sources */,
+				988C6D921A24BA6300D5A943 /* Result.swift in Sources */,
+				988C6D931A24BA6300D5A943 /* Template.swift in Sources */,
+				988C6D8F1A24BA6300D5A943 /* Lexer.swift in Sources */,
+				988C6D941A24BA6300D5A943 /* Tokenizer.swift in Sources */,
 				989DE2651A1F353300AA8576 /* AppDelegate.swift in Sources */,
+				988C6D951A24BA6300D5A943 /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +414,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/StencilDemo-gtypknkchimumtgqgqpzkxrbdgnp/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/StencilDemo-cclkqmxzfqvfojfvawrbapctbqjo/Build/Products/Debug",
 				);
 				INFOPLIST_FILE = StencilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -377,6 +429,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/StencilDemo-gtypknkchimumtgqgqpzkxrbdgnp/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/StencilDemo-cclkqmxzfqvfojfvawrbapctbqjo/Build/Products/Debug",
 				);
 				INFOPLIST_FILE = StencilDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

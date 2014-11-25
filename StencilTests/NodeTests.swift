@@ -2,14 +2,14 @@ import Foundation
 import XCTest
 import Stencil
 
-class ErrorNodeError : Error {
+class ErrorNodeError : StencilError {
     var description: String {
         return "Node Error"
     }
 }
 
 class ErrorNode : Node {
-    func render(context: Context) -> Result {
+    func render(context: Context) -> StencilResult {
 
         return .Error(ErrorNodeError())
     }

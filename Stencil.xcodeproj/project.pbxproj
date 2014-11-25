@@ -78,7 +78,7 @@
 		77FAAE5219F91E480029DC5E /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FAAE5619F91E480029DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77FAAE5719F91E480029DC5E /* Stencil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stencil.h; sourceTree = "<group>"; };
-		77FAAE5D19F91E480029DC5E /* StencilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StencilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FAAE5D19F91E480029DC5E /* Stencil-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stencil-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FAAE6319F91E480029DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77FAAE6419F91E480029DC5E /* StencilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilTests.swift; sourceTree = "<group>"; };
 		77FAAE6E19F920750029DC5E /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				77FAAE5219F91E480029DC5E /* Stencil.framework */,
-				77FAAE5D19F91E480029DC5E /* StencilTests.xctest */,
+				77FAAE5D19F91E480029DC5E /* Stencil-OSXTests.xctest */,
 				7703829A1A1F4A0200435285 /* Stencil.framework */,
 				770382A41A1F4A0200435285 /* Stencil-iOSTests.xctest */,
 			);
@@ -278,7 +278,7 @@
 			);
 			name = "Stencil-OSXTests";
 			productName = StencilTests;
-			productReference = 77FAAE5D19F91E480029DC5E /* StencilTests.xctest */;
+			productReference = 77FAAE5D19F91E480029DC5E /* Stencil-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -666,6 +666,7 @@
 				770382AE1A1F4A0200435285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		770382B21A1F4A0200435285 /* Build configuration list for PBXNativeTarget "Stencil-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +675,7 @@
 				770382B01A1F4A0200435285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77FAAE4C19F91E480029DC5E /* Build configuration list for PBXProject "Stencil" */ = {
 			isa = XCConfigurationList;
